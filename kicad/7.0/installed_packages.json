@@ -1,0 +1,454 @@
+{
+    "packages": [
+        {
+            "current_version": "1.8.0",
+            "install_timestamp": 1695321208,
+            "package": {
+                "author": {
+                    "contact": {
+                        "email": "info@freerouting.app",
+                        "web": "https://www.freerouting.app/"
+                    },
+                    "name": "Andras Fuchs"
+                },
+                "description": "Freerouting KiCad integration",
+                "description_full": "This is the official KiCad integration for Freerouting, an advanced autorouter.\nIt needs Java JRE 17, download it from https://adoptium.net/temurin/releases .\n",
+                "identifier": "app.freerouting.kicad-plugin",
+                "license": "GPL-3.0",
+                "maintainer": {
+                    "contact": {
+                        "email": "info@freerouting.app"
+                    },
+                    "name": "Andras Fuchs"
+                },
+                "name": "Freerouting",
+                "resources": {
+                    "Github": "https://github.com/freerouting/freerouting/tree/master/integrations/KiCad"
+                },
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "ba428e2abe408ea5d3b97b451514b1e6ba5defe04a917e27b48c40e48d0d52b8",
+                        "download_size": 4309439,
+                        "download_url": "https://github.com/freerouting/freerouting/raw/master/integrations/KiCad/kicad-freerouting-1.8.0.zip",
+                        "install_size": 4808684,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.8.0"
+                    },
+                    {
+                        "download_sha256": "62dc982998455e097744510b24331f1b33cee49cb90116b680349f6027618cef",
+                        "download_size": 4304221,
+                        "download_url": "https://github.com/freerouting/freerouting/raw/master/integrations/KiCad/kicad-freerouting-1.7.1.zip",
+                        "install_size": 4797518,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.7.1"
+                    },
+                    {
+                        "download_sha256": "d737320dcc835c53975d5d4cbb99afe8e05ed015f41858d350ccffbc456cb424",
+                        "download_size": 4304240,
+                        "download_url": "https://github.com/freerouting/freerouting/raw/master/integrations/KiCad/kicad-freerouting-1.7.0.zip",
+                        "install_size": 4797408,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.7.0"
+                    },
+                    {
+                        "download_sha256": "5b7b92448851e982dc31d54c344b6bc74e08e109ef67beae83f321aa50ffab58",
+                        "download_size": 4303331,
+                        "download_url": "https://github.com/freerouting/freerouting/raw/master/integrations/KiCad/kicad-freerouting-1.6.6.zip",
+                        "install_size": 4796646,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.6.6"
+                    },
+                    {
+                        "download_sha256": "8eccd96f48a5f9f77b2e9c33a9fbcc99c6b12c11fdedb4d19356b7a1216497f7",
+                        "download_size": 4301604,
+                        "download_url": "https://github.com/freerouting/freerouting/raw/master/integrations/KiCad/kicad-freerouting-1.6.5.zip",
+                        "install_size": 4793969,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.6.5"
+                    },
+                    {
+                        "download_sha256": "a72f4e5b5cedfee3ecea474315e6fc94e11fcb5480dc77a944dfe67fb2e96367",
+                        "download_size": 4095649,
+                        "download_url": "https://github.com/freerouting/freerouting/raw/master/integrations/KiCad/kicad-freerouting-1.6.2.zip",
+                        "install_size": 4526306,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.6.2"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "1.0.1",
+            "install_timestamp": 1695321204,
+            "package": {
+                "author": {
+                    "contact": {
+                        "email": "4ms@4mscompany.com",
+                        "web": "https://4mscompany.com"
+                    },
+                    "name": "4ms Company"
+                },
+                "description": "Kicad symbol and footprint libraries, with a focus on components used in analog and DSP audio.",
+                "description_full": "Kicad symbol and footprint libraries for analog and digital (DSP) audio electronics.\n\nYou must add these libraries to your library tables, see GitHub link for instructions.\n\nThese libraries are used at 4ms Company in our audio devices. Most symbols include manufacturer name and part number, and sometimes multiple alternative numbers. Some parts have JLCPCB part numbers as well, which is used by our BOM and XYPOS scripts in order to streamline using their services (see our GitHub page for links to those scripts).\n\nEach symbol represents a unique part. For example, there is a separate symbol for each combination of resistor value, tolerance, and size. While this makes for a lot of symbols, Kicad's filter toolbar in the symbol chooser makes finding a part easy, and there is less chance for BOM errors.\n\nWhen possible, symbols look like the official KiCad symbols, so that it's easy to use official and 4ms symbols in the same schematic.",
+                "identifier": "com.github.4ms.4ms-kicad-lib",
+                "license": "Unlicense",
+                "maintainer": {
+                    "contact": {
+                        "email": "4ms@4mscompany.com",
+                        "web": "https://4mscompany.com"
+                    },
+                    "name": "4ms Company"
+                },
+                "name": "4ms Kicad Libraries",
+                "resources": {
+                    "homepage": "https://github.com/4ms/4ms-kicad-lib"
+                },
+                "tags": [
+                    "footprints",
+                    "symbols"
+                ],
+                "type": "library",
+                "versions": [
+                    {
+                        "download_sha256": "09da3a06b3912daadc0530abc5722a9660b547ef24db3a802ddc2e262e4c2ef3",
+                        "download_size": 356300,
+                        "download_url": "https://github.com/4ms/4ms-kicad-lib/releases/download/1.0.1/4ms-kicad-lib-PCM-1.0.1.zip",
+                        "install_size": 2060685,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.0.1"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "0.3.0",
+            "install_timestamp": 1696370090,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/Steffen-W"
+                    },
+                    "name": "Steffen Wittemeier"
+                },
+                "description": "Import library files from Octopart, Samacsys, Ultralibrarian and Snapeda",
+                "description_full": "Import library files from Octopart, Samacsys, Ultralibrarian and Snapeda.\n For usage and correct setup please read the Readme: \n https://github.com/Steffen-W/Import-LIB-KiCad-Plugin#use-of-the-application",
+                "identifier": "com.github.Steffen-W.impartGUI",
+                "license": "GPL-3.0",
+                "maintainer": {
+                    "contact": {
+                        "github": "https://github.com/Steffen-W"
+                    },
+                    "name": "Steffen Wittemeier"
+                },
+                "name": "impart GUI for KiCad",
+                "resources": {
+                    "homepage": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin"
+                },
+                "tags": [
+                    "import",
+                    "library",
+                    "octopart",
+                    "samacsys",
+                    "ultralibrarian",
+                    "snapeda"
+                ],
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "9850811d03e4c2bb3e84ec4f15dd31238600aa0b1481a8c4978319761da27e78",
+                        "download_size": 24870,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/v0.3.0/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 57178,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "0.3.0"
+                    },
+                    {
+                        "download_sha256": "9385284e93d21bdd9ed6e73f1afced97f688e6e9d22e40fe3776cb2b83ef201f",
+                        "download_size": 22407,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/v0.2.0/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 52605,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "0.2.0"
+                    },
+                    {
+                        "download_sha256": "bc042534930b3e117a4f25544c7d4cde3441004b763a0635412207906829b88f",
+                        "download_size": 25053,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/v0.1.1/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 97762,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "0.1.1"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "3.0.0",
+            "install_timestamp": 1695321206,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/bennymeg"
+                    },
+                    "name": "Benny Megidish"
+                },
+                "description": "JLC PCB fabrication toolkit\nAutomate PCB fabrication process in conjunction with JLC PCB",
+                "description_full": "Toolkit for automating PCB fabrication process with KiCad and JLC PCB. \n\n OPTIONS: \n• Include Component Part Number in Production Files \n Add an 'MPN' field with the LCSC component part number to the footprint component options.  \n\n• Ignore Footprint in Production Files \n Select 'Exclude from position files' or 'Exclude from BOM' in the footprint properties fabrication attributes in order to ignore the footprint from the relevant file.",
+                "identifier": "com.github.bennymeg.JLC-Plugin-for-KiCad",
+                "license": "Apache-2.0",
+                "maintainer": {
+                    "contact": {
+                        "github": "https://github.com/bennymeg"
+                    },
+                    "name": "Benny Megidish"
+                },
+                "name": "Fabrication Toolkit",
+                "resources": {
+                    "homepage": "https://github.com/bennymeg/JLC-Plugin-for-KiCad"
+                },
+                "tags": [
+                    "jlc",
+                    "production",
+                    "fabrication",
+                    "toolkit"
+                ],
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "812d65d9e1ebbbdb3e11c7678a97ebc3ec2cfd996ac6b7cc0608bab606f26ff5",
+                        "download_size": 15624,
+                        "download_url": "https://github.com/bennymeg/JLC-Plugin-for-KiCad/releases/download/3.1.0/JLC-Plugin-for-KiCad-3.1.0.zip",
+                        "install_size": 34041,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "3.1.0"
+                    },
+                    {
+                        "download_sha256": "f015affbeacef6217c0da80f53ecf4d143c304d795bc6f5913a9844425e300e3",
+                        "download_size": 14636,
+                        "download_url": "https://github.com/bennymeg/JLC-Plugin-for-KiCad/releases/download/3.0.0/JLC-Plugin-for-KiCad-3.0.0.zip",
+                        "install_size": 31053,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "3.0.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "3.0",
+            "install_timestamp": 1695321204,
+            "package": {
+                "author": {
+                    "contact": {
+                        "email": "dawid_cislo@o2.pl"
+                    },
+                    "name": "Dawid Cisło"
+                },
+                "description": "Symbol and Footprint library focused on improving schematic and PCB readability and aesthetics, mainly intended for hobbyist use",
+                "description_full": "Current version: 3.0\n\nYou need to manually update the library tables in the Library Manager. Refer to the links below for documentation and installation instructions.\n\nAlternate KiCad Library contains over 30000 symbols and 9200 footprints.\n New symbols include opamps, voltage comparators, instrumentation amplifiers, difference amplifiers, differential amplifiers and more.\nNew footprints include Potentiometers, SIP packages and new variants for existing libraries.\n\n",
+                "identifier": "com.github.dawidcislo.alternate-kicad-library",
+                "license": "CC-BY-SA",
+                "name": "Alternate Kicad Library",
+                "resources": {
+                    "Github": "https://github.com/DawidCislo/Alternate-KiCad-Library",
+                    "Website": "https://www.alternatekicadlibrary.com/"
+                },
+                "tags": [
+                    "footprints",
+                    "symbols"
+                ],
+                "type": "library",
+                "versions": [
+                    {
+                        "download_sha256": "55da0f126d556400a0511b75fc1543f91e5a4de1645cafbf057c307cb51a9e46",
+                        "download_size": 24209427,
+                        "download_url": "https://github.com/DawidCislo/Alternate-KiCad-Library/releases/download/v3.0/com_github_alternate_kicad_library.zip",
+                        "install_size": 107680556,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "3.0"
+                    },
+                    {
+                        "download_sha256": "dc07a18ece7a8df203229999b13efe2f0f8e15abf1b07ea507deefe760d5de8b",
+                        "download_size": 15031216,
+                        "download_url": "https://github.com/DawidCislo/Alternate-KiCad-Library/releases/download/v2.1/com_github_alternate_kicad_library.zip",
+                        "install_size": 67073607,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "2.1"
+                    },
+                    {
+                        "download_sha256": "9263e7d394912f06baa1d33180e59bf10a75086ad683abf31d65581c8f2f16e2",
+                        "download_size": 10872186,
+                        "download_url": "https://github.com/DawidCislo/Alternate-KiCad-Library/raw/main/PCM_Releases/2.0/com_github_alternate_kicad_library.zip",
+                        "install_size": 59137804,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "2.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "2.0.3",
+            "install_timestamp": 1695321291,
+            "package": {
+                "author": {
+                    "contact": {
+                        "web": "https://github.com/espressif/kicad-libraries"
+                    },
+                    "name": "Pedro Minatel"
+                },
+                "description": "This addon contains the Symbols, Footprint, and 3D Models for the Espressif SoC and Modules family.",
+                "description_full": "This addon contains the Symbols, Footprint, and 3D Models for the Espressif SoC and Modules family. All footprints were designed according to the Recommended PCB Land Pattern section present on each module datasheet.\n\n\n # Hardware Design Guidelines\n\n Before designing your hardware, be sure to check all recommendations at:\n\n- Espressif Hardware Design Guidelines: https://www.espressif.com/sites/default/files/documentation/esp32_hardware_design_guidelines_en.pdf\n-Espressif Product Selector: https://products.espressif.com/#/",
+                "identifier": "com.github.espressif.kicad-libraries",
+                "license": "CC-BY-SA-4.0",
+                "maintainer": {
+                    "contact": {
+                        "web": "https://github.com/espressif/kicad-libraries"
+                    },
+                    "name": "Pedro Minatel"
+                },
+                "name": "Espressif Library",
+                "resources": {
+                    "homepage": "https://github.com/espressif/kicad-libraries"
+                },
+                "type": "library",
+                "versions": [
+                    {
+                        "kicad_version": "7.0.0",
+                        "status": "stable",
+                        "version": "2.0.3"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "",
+            "repository_name": "Local file"
+        },
+        {
+            "current_version": "1.0.0",
+            "install_timestamp": 1695321209,
+            "package": {
+                "author": {
+                    "contact": {
+                        "email": "gaurav@gauravmanek.com",
+                        "web": "https://gauravmanek.com/"
+                    },
+                    "name": "Gaurav Manek"
+                },
+                "description": "Enforce sub-PCB layouts for sub-schematics",
+                "description_full": "Define a sub-PCB next to your sub-schematic file, and HierarchicalPCB will propagate that layout to the final PCB. Organize your PCB layouts for maximum reusability!",
+                "identifier": "com.github.gauravmm.hierarchicalpcb",
+                "license": "MIT",
+                "maintainer": {
+                    "contact": {
+                        "email": "gaurav@gauravmanek.com",
+                        "web": "https://gauravmanek.com/"
+                    },
+                    "name": "Gaurav Manek"
+                },
+                "name": "HierarchicalPCB",
+                "resources": {
+                    "homepage": "https://github.com/gauravmm/HierarchicalPcb"
+                },
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "8186cf0502f9f6c9d982144302d336e891adeb49f6928526d6e5036a0044001d",
+                        "download_size": 25154,
+                        "download_url": "https://github.com/gauravmm/HierarchicalPcb/releases/download/1.0.0/package.zip",
+                        "install_size": 52023,
+                        "kicad_version": "7.0",
+                        "status": "stable",
+                        "version": "1.0.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "0.3",
+            "install_timestamp": 1695321205,
+            "package": {
+                "author": {
+                    "contact": {
+                        "email": "perigoso@riseup.net"
+                    },
+                    "name": "Rafael Silva (perigoso)"
+                },
+                "description": "Kicad symbol and footprint library for input device related components.",
+                "description_full": "This package contains footprints and symbols for input device related components like optical tracking sensors and switches.",
+                "identifier": "com.github.openinput-fw.openinput-kicad-library",
+                "license": "CC-BY-4.0",
+                "name": "openinput library",
+                "resources": {
+                    "donate": "https://opencollective.com/openinput",
+                    "github": "https://github.com/openinput-fw/openinput-kicad-library"
+                },
+                "tags": [
+                    "footprint",
+                    "library",
+                    "mouse",
+                    "gaming",
+                    "optical",
+                    "tracking",
+                    "sensor",
+                    "input-device"
+                ],
+                "type": "library",
+                "versions": [
+                    {
+                        "download_sha256": "8d7329d5607345108043455bc87e9f7f56a742e08b47ef070ded0a06aae64d75",
+                        "download_size": 1697322,
+                        "download_url": "https://github.com/openinput-fw/openinput-kicad-library/releases/download/v0.3/openinput-kicad-library.zip",
+                        "install_size": 7028930,
+                        "kicad_version": "6.0",
+                        "status": "testing",
+                        "version": "0.3"
+                    },
+                    {
+                        "download_sha256": "89b2355a96bb0cf2384861db083c9e9d51f0072c96e9ab4dba82c1e2eb2b6b73",
+                        "download_size": 1697328,
+                        "download_url": "https://github.com/openinput-fw/openinput-kicad-library/releases/download/v0.2/openinput-kicad-library.zip",
+                        "install_size": 7028937,
+                        "kicad_version": "6.0",
+                        "status": "testing",
+                        "version": "0.2"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        }
+    ]
+}
